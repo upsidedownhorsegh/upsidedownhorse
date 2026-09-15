@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+dist/
+build/
+*.egg-info/
+
+# Rust / maturin
+target/
+
+# OS / editor
+*:Zone.Identifier
+.DS_Store
