@@ -1,13 +1,16 @@
 [project]
 name = "upsidedownhorse"
-version = "0.1.0"
+version = "0.1.1"
 description = "Add your description here"
 readme = "README.md"
 authors = [
     { name = "upsidedownhorse", email = "tp0110@uah.edu" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "numpy>=2.5.3",
+    "torch>=2.14.0",
+]
 
 [tool.maturin]
 module-name = "upsidedownhorse._core"
