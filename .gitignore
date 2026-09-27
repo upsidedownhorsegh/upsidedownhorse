@@ -12,3 +12,4 @@ target/
 # OS / editor
 *:Zone.Identifier
 .DS_Store
+*.so
